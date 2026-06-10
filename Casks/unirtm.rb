@@ -4,13 +4,13 @@ cask "unirtm" do
 
   on_macos do
     on_intel do
-      sha256 "4552b8c57d0642896f5fc83e60a1e598f8a664a95d37762859dd866a5d8481c4"
+      sha256 "1363a5757cef2c9da63805a22dd13db37ddb1566ffa058f5651e92a51914a504"
       url "https://github.com/snowdreamtech/UniRTM/releases/download/v#{version}/unirtm_Darwin_x86_64.tar.gz",
         verified: "github.com/snowdreamtech/"
       rename "unirtm_Darwin_x86_64/unirtm", "unirtm"
     end
     on_arm do
-      sha256 "d849fae236c4eb54fa4dff6bdd3ccb628438d4a0d99eb77620685f5f15654b3d"
+      sha256 "6d5b35db993c2e76b1119d88f7d8a43bab57a5c073fa5f2cbc65b1d88eca563b"
       url "https://github.com/snowdreamtech/UniRTM/releases/download/v#{version}/unirtm_Darwin_arm64.tar.gz",
         verified: "github.com/snowdreamtech/"
       rename "unirtm_Darwin_arm64/unirtm", "unirtm"
@@ -19,13 +19,13 @@ cask "unirtm" do
 
   on_linux do
     on_intel do
-      sha256 "6e7d17e2ba476e7c0b30f43e60733dc3a98e91e319e5b6b068481b36433f641c"
+      sha256 "c727622a6d372594cb34b34e255cd4f61f6cba55ceb0e33cb75d65fad52fcea3"
       url "https://github.com/snowdreamtech/UniRTM/releases/download/v#{version}/unirtm_Linux_x86_64.tar.gz",
         verified: "github.com/snowdreamtech/"
       rename "unirtm_Linux_x86_64/unirtm", "unirtm"
     end
     on_arm do
-      sha256 "12b518960755be13183edb3ccac5ed9c432cb149e5465913bdc79fc12a94a861"
+      sha256 "f6799c12cb71dd630717eaf62e98ee2be7fb172159fcf04853962095616ef049"
       url "https://github.com/snowdreamtech/UniRTM/releases/download/v#{version}/unirtm_Linux_arm64.tar.gz",
         verified: "github.com/snowdreamtech/"
       rename "unirtm_Linux_arm64/unirtm", "unirtm"
