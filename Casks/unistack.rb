@@ -4,13 +4,13 @@ cask "unistack" do
 
   on_macos do
     on_intel do
-      sha256 "17ecb74509f0798ea1601c620b404c18748876f2ebc726741079f74312f28a1f"
+      sha256 "2778b99dc76dd322a5a4961971569f76f3c93646decc02f4c58f4e16d382d667"
       url "https://github.com/snowdreamtech/unistack/releases/download/v#{version}/unistack_Darwin_x86_64.tar.gz",
         verified: "github.com/snowdreamtech/"
       rename "unistack_Darwin_x86_64/unistack", "unistack"
     end
     on_arm do
-      sha256 "147d39f4a8c0775a0f9a4dd17bc2f24ece70c7255a9da54979a7919582860a18"
+      sha256 "8c242486384dccfa817f20087f0a43d2ada4ecd1ec1871d7990e1e91edccbc2e"
       url "https://github.com/snowdreamtech/unistack/releases/download/v#{version}/unistack_Darwin_arm64.tar.gz",
         verified: "github.com/snowdreamtech/"
       rename "unistack_Darwin_arm64/unistack", "unistack"
@@ -19,13 +19,13 @@ cask "unistack" do
 
   on_linux do
     on_intel do
-      sha256 "27a812b221453370a958fa5ce08f9adefe452004d65a5bb0be45b8a17c88adb8"
+      sha256 "a0d7e0d294c46534f89b7489afb55ba6b7edf3d4b4b0c8ed17e3b8a68d9b7696"
       url "https://github.com/snowdreamtech/unistack/releases/download/v#{version}/unistack_Linux_x86_64.tar.gz",
         verified: "github.com/snowdreamtech/"
       rename "unistack_Linux_x86_64/unistack", "unistack"
     end
     on_arm do
-      sha256 "cf33593d6504331cc564d32d20dfeec9c90bb1830a07cadcbe5cb5a5012625aa"
+      sha256 "ab96c9eba8d3d249bce2f738a791251a3d7ad962f4fdcfaeaaea8504f5e195eb"
       url "https://github.com/snowdreamtech/unistack/releases/download/v#{version}/unistack_Linux_arm64.tar.gz",
         verified: "github.com/snowdreamtech/"
       rename "unistack_Linux_arm64/unistack", "unistack"
