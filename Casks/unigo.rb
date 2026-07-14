@@ -4,13 +4,13 @@ cask "unigo" do
 
   on_macos do
     on_intel do
-      sha256 "2f0903cccbbb26a5e9d14010c71e5f5c090e620b4a3a40899fa18d86e8d50e22"
+      sha256 "04aa6b7bae3a614ae3246e9153fddbf20d30d7378bf7dfe52a3af509920f4e9c"
       url "https://github.com/snowdreamtech/unigo/releases/download/v#{version}/unigo_Darwin_x86_64.tar.gz",
         verified: "github.com/snowdreamtech/"
       rename "unigo_Darwin_x86_64/unigo", "unigo"
     end
     on_arm do
-      sha256 "03a371f758778cd10971d413afdc44e72a6f77ecd10c644333c08048550b2ec2"
+      sha256 "d98dbeb1a4c214b7049f18a0fa611f0911f2c25388e1014f95bbca007cc24796"
       url "https://github.com/snowdreamtech/unigo/releases/download/v#{version}/unigo_Darwin_arm64.tar.gz",
         verified: "github.com/snowdreamtech/"
       rename "unigo_Darwin_arm64/unigo", "unigo"
@@ -19,13 +19,13 @@ cask "unigo" do
 
   on_linux do
     on_intel do
-      sha256 "27a68144a7004ea79d94d4c22ef357f767efe968c52cdf6bfdcc5414e9df8281"
+      sha256 "79cab9711e7bb35e14f00d93eb4f2313b2f471d1fdcd3086b3f2436cac6ecee7"
       url "https://github.com/snowdreamtech/unigo/releases/download/v#{version}/unigo_Linux_x86_64.tar.gz",
         verified: "github.com/snowdreamtech/"
       rename "unigo_Linux_x86_64/unigo", "unigo"
     end
     on_arm do
-      sha256 "3b5ba6e3bb58c05bad88aa497f6c0201eb4107f369b50b897c2f286a1d65e7a3"
+      sha256 "a9ecb324a7e118e2b0f5940dd25a7fc39f31de5cc2f6743e6bf9e88ebbd11aee"
       url "https://github.com/snowdreamtech/unigo/releases/download/v#{version}/unigo_Linux_arm64.tar.gz",
         verified: "github.com/snowdreamtech/"
       rename "unigo_Linux_arm64/unigo", "unigo"
